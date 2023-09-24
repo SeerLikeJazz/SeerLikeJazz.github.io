@@ -1,0 +1,39 @@
+介绍econhand
+After a stroke, motor cortex damage can result in impaired upper extremity motor function, limiting arm and hand movement.
+The muscles in the arm and hand are fine, but the brain has a hard time connecting.
+eCon-Hand uses stroke patients' healthy brain activity when thinking about movement to retrain a new part of their brain to control their disabled arm.
+eCon-Hand is an active rehabilitation device based on brain-machine interface technology, which includes a wireless electroencephalogram (EEG) headset and a portable exoskeleton robotic hand. This device can assist stroke patients in active rehabilitation training, promoting brain function reshaping and improving the effectiveness of patients' motor function recovery.
+econhand是基于脑机接口技术的主动康复设备，包括无线脑电头盔和便携式外骨骼机械手。设备可以辅助卒中患者进行主动康复训练，促进脑功能重塑，提高患者的运动功能康复效果。
+
+脑电头盔记录10通道脑电波信号，通过人工智能算法实时计算用户的运动意图，将解析出的运动指令无线发送至外骨骼机械手，实现意念控制。
+The EEG headset records 10-channel brainwave signals and recognizes your intent from healthy parts of your brain when you imagine hand movement. The decoded motion commands are then wirelessly transmitted to the exoskeleton robotic hand.
+The exoskeleton robotic hand opens and closes the robotic handpiece in response to your intention to move your hand.
+
+
+
+
+神经机制neural mechanism
+赫布理论(Hebbian theory)表明，当突触前和突触后神经元共同兴奋时，两者的连接性和可塑性得到提高。将大脑神经元活动与外周神经刺激进行反复匹配，从而实现脑功能重塑。
+The Hebbian theory suggests that when pre-synaptic and post-synaptic neurons are excited together, their connectivity and plasticity are enhanced. Repeatedly matching brain neuron activity with peripheral nerve stimuli allows for the reshaping of brain function.
+Repeated therapy may improve motor function by strengthening connections and encouraging new pathways to healthy parts of the brain.
+
+
+版本迭代
+我们使用RHD2216作为EEG前端放大芯片。转接neuroscan的Quik-Cap作为我们的头盔
+3D打印了头盔，10个Ag/Agcl电极固定在C3、C4附近（运动区），引线焊接到电路板上
+A headset was 3D printed, with 10 Ag/AgCl electrodes fixed around C3 and C4 (motor area), and the leads were soldered onto the circuit board.
+把原型机给患者使用，测试人机交互
+Provide the prototype to the patient for testing human-machine interaction.
+增加阻抗检测的设备
+
+Dr.Reid Harrison(founder of Intan Technologies)建议我RHD2216更适合用在侵入式脑电采集，TI的ADS1299有更小的噪声，适合采集EEG
+Dr. Reid Harrison(founder of Intan Technologies)suggested me that RHD2216 is more suitable for invasive neural signal collection, as TI's ADS1299 has lower noise and is better suited for EEG acquisition.
+
+#### From Prototype to Product
+
+
+
+
+治疗效果
+
+
